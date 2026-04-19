@@ -35,6 +35,8 @@ spec:
           value: "LATEST"
         - name: TYPE
           value: "VANILLA"
+        - name: ENABLE_AUTOPAUSE
+          value: "FALSE"
         volumeMounts:
         - name: data
           mountPath: /data
@@ -55,3 +57,4 @@ spec:
     protocol: TCP
   selector:
     app: minecraft
+
