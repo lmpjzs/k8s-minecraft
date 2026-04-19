@@ -37,6 +37,8 @@ spec:
           value: "VANILLA"
         - name: ENABLE_AUTOPAUSE
           value: "FALSE"
+        - name: ONLINE_MODE
+          value: "FALSE"
         volumeMounts:
         - name: data
           mountPath: /data
