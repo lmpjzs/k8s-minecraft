@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/<seu-usuario>/k8s-minecraft.git
+    repoURL: https://github.com/lmpjzs/k8s-minecraft.git
     targetRevision: main
     path: manifests
 
